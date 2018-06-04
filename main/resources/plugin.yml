@@ -1,0 +1,11 @@
+main: net.antfarms.antauctions.Main
+name: AntAuctions
+version: 0.0.1
+author: TheMGRF
+description: Cross Bungee Auction House system for AntFarms
+depend: [AntEconomy, ServiceConnector, LangUtils]
+
+commands:
+  ah:
+    description: Open the Auction House GUI
+    usage: /<command>
